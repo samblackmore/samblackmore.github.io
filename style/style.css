@@ -1,3 +1,7 @@
 .pad-sm {
   padding: 10px;
 }
+
+.title {
+  font-weight: bold;
+}
