@@ -16,5 +16,8 @@
     "url": "https://github.com/samblackmore/samblackmore.github.io/issues"
   },
   "homepage": "https://github.com/samblackmore/samblackmore.github.io#readme",
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
