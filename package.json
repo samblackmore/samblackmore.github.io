@@ -19,6 +19,7 @@
   "keywords": [],
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-pug": "^3.1.0"
+    "gulp-pug": "^3.1.0",
+    "gulp-watch": "^4.3.10"
   }
 }

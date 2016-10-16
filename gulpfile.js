@@ -1,13 +1,13 @@
-var gulp = require('gulp');
-var pug = require('gulp-pug');
+var gulp = require('gulp'),
+    pug = require('gulp-pug'),
+    watch = require('gulp-watch');
 
 gulp.task('default', function() {
-
   var locals = {
     title: 'Hello'
   }
-
-  return gulp.src('index.pug')
-  .pipe(pug({locals: locals}))
-  .pipe(gulp.dest('./'))
+  
+  return watch('index.pug')
+    .pipe(pug({locals: locals}))
+    .pipe(gulp.dest('./'));
 });
