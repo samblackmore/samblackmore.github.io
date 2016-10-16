@@ -2,12 +2,9 @@ extends layout
 
 block content
 
-  div.col-md-2
-    div.panel.panel-default
-      img.pad-sm.img-responsive(src='img/words.png')
-      p.pad-sm 3 Words
-
-  div.col-md-2
-    div.panel.panel-default
-      img.pad-sm.img-responsive(src='img/bottom.png')
-      p.pad-sm Get to the Bottom!
+  - var panels = [{name: '3 Words', src: 'img/words.png'}, {name: 'Get to the Bottom!', src: 'img/bottom.png'}]
+  each panel in panels
+    div.col-md-2
+      div.panel.panel-default
+        img.pad-sm.img-responsive(src=panel.src)
+        p.pad-sm= panel.name
