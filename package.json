@@ -1,0 +1,20 @@
+{
+  "name": "samblackmore.github.io",
+  "version": "0.0.0",
+  "description": "My personal page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samblackmore/samblackmore.github.io.git"
+  },
+  "author": "Sam Blackmore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samblackmore/samblackmore.github.io/issues"
+  },
+  "homepage": "https://github.com/samblackmore/samblackmore.github.io#readme",
+  "keywords": []
+}
