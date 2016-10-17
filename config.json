@@ -1,0 +1,13 @@
+{
+  "title": "Hello",
+  "panels": [
+  {
+    "name": "3 Words",
+    "src": "img/words.png",
+    "desc": "Write a story 3 words at a time."
+  }, {
+    "name": "Get to the Bottom!",
+    "src": "img/bottom.png",
+    "desc": "It's like turn-based Pacman."
+  }]
+}
