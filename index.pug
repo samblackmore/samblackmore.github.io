@@ -3,8 +3,7 @@ extends layout
 block content
 
   each panel in panels
-    div.col-md-2
+    div.col-sm-2
       div.panel.panel-default
-        img.pad-sm.img-responsive(src=panel.src)
-        p.pad-sm.title= panel.name
-        p.pad-sm= panel.desc
+        div.pad-sm
+          img.test.img-responsive.img-rounded(src=panel.src)
